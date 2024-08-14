@@ -10,6 +10,9 @@ Pasi pt. rulare:
    ![image](https://github.com/user-attachments/assets/36be8468-d68b-4858-91d0-de8425bb0f29)
 
 La logare, se introduce contul default de administrator platforma (porecla: 'admin', parola: 'admin').
+
 Pe partea de 'client' s-au adaugat doar cateva functionalitati pe care administratorul platforma le poate executa.
+
 Pt. schimbare nume materie / utilizator, trebuie sa se introduca primele 3 litere iar apoi se apasa pe entitatea care se doreste a fi modificata.
+
 Pt. licee, se poate apasa pe unul din ele (din lista) pentru a vedea mai multe detalii / functionalitati despre aceasta.

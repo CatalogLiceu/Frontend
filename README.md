@@ -1,50 +1,15 @@
-# React + TypeScript + Vite
+Pasi pt. rulare:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. In folderul in care a fost descarcat aplicatia 'client', in linia de comanda: 'npm install', iar apoi 'npm run dev'.
+2. Asigurati-va ca in fisierul '.env' campul 'VITE_API_URL' se potriveste cu adresa server-ului (backend):
 
-Currently, two official plugins are available:
+   ![image](https://github.com/user-attachments/assets/8f2565d5-839d-41a7-8a33-85e6bfc33059)
+3. Asigurati-va ca server-ul (Backend) este pornit.
+4. Accesare adresa dupa ce totul a fost pornit:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   ![image](https://github.com/user-attachments/assets/36be8468-d68b-4858-91d0-de8425bb0f29)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+La logare, se introduce contul default de administrator platforma (porecla: 'admin', parola: 'admin').
+Pe partea de 'client' s-au adaugat doar cateva functionalitati pe care administratorul platforma le poate executa.
+Pt. schimbare nume materie / utilizator, trebuie sa se introduca primele 3 litere iar apoi se apasa pe entitatea care se doreste a fi modificata.
+Pt. licee, se poate apasa pe unul din ele (din lista) pentru a vedea mai multe detalii / functionalitati despre aceasta.
